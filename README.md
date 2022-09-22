@@ -20,16 +20,6 @@ This repository contains the MPLAB® Harmony 3 Wireless application examples for
 - [Release Notes](release_notes.md)
 - [MPLAB® Harmony License](mplab_harmony_license.md)
 
-To clone or download these applications from Github, go to the [main page of this repository](update required) and then click **Clone** button to clone this repository or download as zip file.
-This content can also be downloaded using content manager by following these [instructions](https://github.com/Microchip-MPLAB-Harmony/contentmanager/wiki).
-
-## Contents Summary
-
-| Folder     | Description                             |
-| ---        | ---                                     |
-| apps       | Contains Wireless service example applications. |
-| docs       | Contains documentation in html format for offline viewing (to be used only after cloning this repository onto a local machine). Use [github pages](https://microchip-mplab-harmony.github.io/wireless_apps_winc3400/) of this repository for viewing it online. |
-
 
 ## Code Examples
 
