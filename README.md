@@ -34,22 +34,8 @@ The following applications are provided to demonstrate the typical or interestin
 |[Wi-Fi Provisioning using WPS (Socket mode)](apps/wifi_provisioning_via_wps/readme.md)|Demonstrates WINC1500/WINC3400 HomeAP Provisioning using WPS on SAMA5D27-SOM1-EK1 MPU|
 |[Wi-Fi Provisioning using BLE (Socket mode)](apps/wifi_provision_via_ble/readme.md)|Demonstrates WINC1500/WINC3400 HomeAP Provisioning using BLE on SAMA5D27-SOM1-EK1 MPU|
 
-## Documentation
-
-| Mode       | Document| Description                             |
-| ----        | ----    |---                                 |
-
-
-
-____
-
-[![License](https://img.shields.io/badge/license-Harmony%20license-orange.svg)](https://github.com/Microchip-MPLAB-Harmony/wireless_apps_winc3400/blob/master/mplab_harmony_license.md)
-[![Latest release](https://img.shields.io/github/release/Microchip-MPLAB-Harmony/wireless_apps_winc3400.svg)](https://github.com/Microchip-MPLAB-Harmony/wireless_apps_winc3400/releases/latest)
-[![Latest release date](https://img.shields.io/github/release-date/Microchip-MPLAB-Harmony/wireless_apps_winc3400.svg)](https://github.com/Microchip-MPLAB-Harmony/wireless_apps_winc3400/releases/latest)
-[![Commit activity](https://img.shields.io/github/commit-activity/y/Microchip-MPLAB-Harmony/wireless_apps_winc3400.svg)](https://github.com/Microchip-MPLAB-Harmony/wireless_apps_winc3400/graphs/commit-activity)
-[![Contributors](https://img.shields.io/github/contributors-anon/Microchip-MPLAB-Harmony/wireless_apps_winc3400.svg)]()
-
-____
+## Documentation Details:
+- [WINC Driver Porting Guide for SAMA5D27-SOM1-EK1 doc](https://github.com/MicrochipTech/WINC_SAMA5D27-SOM1-EK_Demos/blob/master/WINC%20Driver%20Porting%20Guide%20for%20SAMA5D27_SOM1_EK1.pdf)
 
 [![Follow us on Youtube](https://img.shields.io/badge/Youtube-Follow%20us%20on%20Youtube-red.svg)](https://www.youtube.com/user/MicrochipTechnology)
 [![Follow us on LinkedIn](https://img.shields.io/badge/LinkedIn-Follow%20us%20on%20LinkedIn-blue.svg)](https://www.linkedin.com/company/microchip-technology)

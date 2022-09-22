@@ -25,7 +25,7 @@ Following table provides number of Wireless examples available for different dev
 ### Limitations
 
 - Need to use SAMD21/SAME54 boards to upgrade the FW on WINC1500/3400 XPRO modules using Serial bridge application.
-- To run applications on SAMDA5D27-SOM1-EK1 board users require custom built XPRO to MikroBus adapter to interface with WINC1500/WINC3400 XPRO. More information can be found on WINC Driver Porting Guide for SAMA5D27-SOM1-EK1 doc.
+- To run applications on SAMDA5D27-SOM1-EK1 board users require custom built XPRO to MikroBus adapter to interface with WINC1500/WINC3400 XPRO. More information can be found on [WINC Driver Porting Guide for SAMA5D27-SOM1-EK1 doc](https://github.com/MicrochipTech/WINC_SAMA5D27-SOM1-EK_Demos/blob/master/WINC%20Driver%20Porting%20Guide%20for%20SAMA5D27_SOM1_EK1.pdf).
 
 ### Development Tools
 
