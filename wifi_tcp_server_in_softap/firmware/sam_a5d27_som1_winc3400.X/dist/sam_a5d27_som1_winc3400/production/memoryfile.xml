@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/sam_a5d27_som1_winc3400/production/sam_a5d27_som1_winc3400.X.production.elf">
+    <memory name="data">
+      <units>bytes</units>
+      <length>117440512</length>
+      <used>113152</used>
+      <free>117327360</free>
+    </memory>
+  </executable>
+</project>
