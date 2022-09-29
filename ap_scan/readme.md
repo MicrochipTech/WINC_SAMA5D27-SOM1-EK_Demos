@@ -20,7 +20,7 @@ AP Scan application is used to scan for available BSSs and display the list. It 
 
 ## Downloading and building the application
 
-To download or clone this application from Github, go to the [top level of the repository](https://bitbucket.microchip.com/projects/WSGSW/repos/wireless_wifi)
+To download or clone this application from Github, go to the [top level of the repository](https://github.com/MicrochipTech/WINC_SAMA5D27-SOM1-EK_Demos)
 
 
 Path of the application within the repository is **apps/ap_scan/firmware** .

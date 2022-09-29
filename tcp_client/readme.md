@@ -26,7 +26,7 @@ This demonstration can be configured in the following ways in the source code.
 
 ## Downloading and building the application
 
-To download or clone this application from Github, go to the [top level of the repository](https://bitbucket.microchip.com/projects/WSGSW/repos/wireless_wifi)
+To download or clone this application from Github, go to the [top level of the repository](https://github.com/MicrochipTech/WINC_SAMA5D27-SOM1-EK_Demos)
 
 
 Path of the application within the repository is **apps/tcp_client/firmware** .
