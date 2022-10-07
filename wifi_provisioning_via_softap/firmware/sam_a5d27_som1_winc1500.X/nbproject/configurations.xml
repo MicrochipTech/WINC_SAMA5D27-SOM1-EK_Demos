@@ -162,6 +162,7 @@
           <itemPath>../src/config/sam_a5d27_som1_winc1500/definitions.h</itemPath>
           <itemPath>../src/config/sam_a5d27_som1_winc1500/device_cache.h</itemPath>
           <itemPath>../src/config/sam_a5d27_som1_winc1500/user.h</itemPath>
+          <itemPath>../src/config/sam_a5d27_som1_winc1500/example_conf.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="packs" displayName="packs" projectFiles="true">
@@ -306,7 +307,6 @@
         </logicalFolder>
       </logicalFolder>
       <itemPath>../src/app.h</itemPath>
-      <itemPath>../../../tcp_server_in_softap/firmware/src/example_conf.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"

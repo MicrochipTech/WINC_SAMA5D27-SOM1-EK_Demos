@@ -1,0 +1,1 @@
+$(MP_EXTRA_AS_PRE)  -c -mprocessor=$(MP_PROCESSOR_OPTION) -DXPRJ_sam_a5d27_som1_winc3400=$(CND_CONF)    -Wa,--defsym=__MPLAB_BUILD=1$(MP_EXTRA_AS_POST),--gdwarf-2 -mdfp="${DFP_DIR}"D:\WiFi_Projects\WINC\wireless_wifi\apps\wifi_provisioning_via_softap\firmware\src\config\sam_a5d27_som1_winc3400\cstartup.S

@@ -11,7 +11,7 @@
 
 //DOM-IGNORE-BEGIN
 /*******************************************************************************
-* Copyright (C) 2021 Microchip Technology Inc. and its subsidiaries.
+* Copyright (C) 2022 Microchip Technology Inc. and its subsidiaries.
 *
 * Subject to your compliance with these terms, you may use Microchip software
 * and any derivatives exclusively with Microchip products. It is your
@@ -346,17 +346,29 @@ ERR1:
 int8_t chip_wake(void)
 {
     int8_t ret = M2M_SUCCESS;
-    uint32_t clk_status_reg = 0, trials = 0;
+    uint32_t reg = 0, clk_status_reg = 0, trials = 0;
 
-    /*USE bit 0 to indicate host wakeup*/
-    ret = nm_write_reg(HOST_CORT_COMM, NBIT0);
+    nm_read_reg_with_ret(CLOCKS_EN_REG, &clk_status_reg);
+
+    ret = nm_read_reg_with_ret(HOST_CORT_COMM, &reg);
     if(ret != M2M_SUCCESS)goto _WAKE_EXIT;
 
-    /* Set bit 1 */
-    ret = nm_write_reg(WAKE_CLK_REG, NBIT1);
+    if(!(reg & NBIT0))
+    {
+        /*USE bit 0 to indicate host wakeup*/
+        ret = nm_write_reg(HOST_CORT_COMM, reg|NBIT0);
+        if(ret != M2M_SUCCESS)goto _WAKE_EXIT;
+    }
+
+    ret = nm_read_reg_with_ret(WAKE_CLK_REG, &reg);
     if(ret != M2M_SUCCESS) goto _WAKE_EXIT;
 
-    nm_sleep(3);
+    /* Set bit 1 */
+    if(!(reg & NBIT1))
+    {
+        ret = nm_write_reg(WAKE_CLK_REG, reg | NBIT1);
+        if(ret != M2M_SUCCESS) goto _WAKE_EXIT;
+    }
 
     do
     {

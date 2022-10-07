@@ -210,7 +210,7 @@ build/sam_a5d27_som1_winc1500/production/_ext/1360937237/example.o: \
  ../src/config/sam_a5d27_som1_winc1500/driver/winc/include/wdrv_winc_powersave.h \
  ../src/config/sam_a5d27_som1_winc1500/driver/winc/include/wdrv_winc_nvm.h \
  ../src/config/sam_a5d27_som1_winc1500/driver/winc/include/wdrv_winc_enterprise.h \
- ../src/example_conf.h
+ ../src/config/sam_a5d27_som1_winc1500/example_conf.h
 
 ../src/app.h:
 
@@ -634,4 +634,4 @@ build/sam_a5d27_som1_winc1500/production/_ext/1360937237/example.o: \
 
 ../src/config/sam_a5d27_som1_winc1500/driver/winc/include/wdrv_winc_enterprise.h:
 
-../src/example_conf.h:
+../src/config/sam_a5d27_som1_winc1500/example_conf.h:

@@ -36,6 +36,7 @@ The following applications are provided to demonstrate the typical or interestin
 
 ## Documentation Details:
 - [WINC Driver Porting Guide for SAMA5D27-SOM1-EK1 doc](https://github.com/MicrochipTech/WINC_SAMA5D27-SOM1-EK_Demos/blob/master/WINC%20Driver%20Porting%20Guide%20for%20SAMA5D27_SOM1_EK1.pdf)
+- [WINC Sample Applications Quick Configurations Guide](https://github.com/MicrochipTech/WINC_SAMA5D27-SOM1-EK_Demos/blob/master/WINC%20Sample%20Applications%20Quick%20Configurations%20Guide.pdf)
 
 [![Follow us on Youtube](https://img.shields.io/badge/Youtube-Follow%20us%20on%20Youtube-red.svg)](https://www.youtube.com/user/MicrochipTechnology)
 [![Follow us on LinkedIn](https://img.shields.io/badge/LinkedIn-Follow%20us%20on%20LinkedIn-blue.svg)](https://www.linkedin.com/company/microchip-technology)

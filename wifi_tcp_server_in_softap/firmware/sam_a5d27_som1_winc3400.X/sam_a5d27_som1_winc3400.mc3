@@ -1,4 +1,4 @@
-<config configName="winc3400_sam_a5d27_som1_ek" projectName="winc3400_sam_a5d27_som1_ek" configVersion="1.1" device="ATSAMA5D27CD1G" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.4">
+<config configName="winc3400_sam_a5d27_som1_ek" projectName="winc3400_sam_a5d27_som1_ek" configVersion="1.1" device="ATSAMA5D27CD1G" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.11">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -189,7 +189,8 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="!@#harmonyUserData"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;UserData&gt;
   &lt;UserData dnOrder=&quot;0&quot;&gt;
-    &lt;ComponentGraph dnOrder=&quot;0&quot; id=&quot;__ROOTVIEW&quot;&gt;
+    &lt;GraphSettings canvasHeight=&quot;513&quot; canvasWidth=&quot;624&quot; dnOrder=&quot;0&quot;/&gt;
+    &lt;ComponentGraph dnOrder=&quot;1&quot; id=&quot;__ROOTVIEW&quot;&gt;
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
         &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;HarmonyCore&quot; x=&quot;2&quot; y=&quot;298&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;cmsis&quot; x=&quot;9&quot; y=&quot;236&quot;/&gt;
@@ -205,7 +206,6 @@
         &lt;ElementPosition dnOrder=&quot;11&quot; id=&quot;uart1&quot; x=&quot;150&quot; y=&quot;401&quot;/&gt;
       &lt;/ElementPositions&gt;
     &lt;/ComponentGraph&gt;
-    &lt;GraphSettings canvasHeight=&quot;513&quot; canvasWidth=&quot;624&quot; dnOrder=&quot;1&quot;/&gt;
   &lt;/UserData&gt;
 &lt;/UserData&gt;
 </value>
@@ -1768,6 +1768,22 @@
          <value>__ROOTVIEW</value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvWifiWinc" name="DRV_WIFI_WINC3400_VERSION"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvWifiWinc&gt;
+  &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;DRV_WIFI_WINC3400_VERSION&quot;&gt;
+    &lt;Attributes dnOrder=&quot;0&quot;&gt;
+      &lt;Boolean dnOrder=&quot;0&quot; id=&quot;visible&quot;&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
+      &lt;/Boolean&gt;
+    &lt;/Attributes&gt;
+    &lt;Values dnOrder=&quot;1&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;1.4.4&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/drvWifiWinc&gt;
+&lt;/drvWifiWinc&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="drvWifiWinc" name="DRV_WIFI_WINC_DEVICE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drvWifiWinc&gt;
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;DRV_WIFI_WINC_DEVICE&quot;&gt;
@@ -3323,7 +3339,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\include\wdrv_winc_enterprise.h</file>
-         <hash>c718913508b67b0c75d4f284298bf7379023d83ca22a2dde13737b9b64915e54</hash>
+         <hash>d570e30c1451491017f757b2fd31751f1c16f49a16fe2f8fc33aeb2ebe849521</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core_A\Include\cmsis_iccarm.h</file>
@@ -3387,7 +3403,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\include\drv\driver\m2m_hif.h</file>
-         <hash>b5a499d0466f2fbac557b50a3ccfa052040441489c018b65d2a1f2da4a04e9a3</hash>
+         <hash>d6d0a52d5163470bd40bc6620cb9f59a06738babfdd63fc98905c68b822c57fd</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMA5D27CD1G_DFP\instance\sdmmc1.h</file>
@@ -3395,7 +3411,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\drv\driver\m2m_periph.c</file>
-         <hash>74982d5c658a06ea888c3ee5954e3baf45e2749c3004b5d7715fe27a5fdf2b12</hash>
+         <hash>bf5d33cf585ea3c21756e6ff21072dfdd76acecba5c0713545c9701fa158d3e3</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMA5D27CD1G_DFP\instance\flexcom2.h</file>
@@ -3439,7 +3455,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\drv\driver\nmbus.c</file>
-         <hash>2dcecfce5ef841045aaeec4ef2d31c776eacef2b9afa1232cef98fc7d017cee7</hash>
+         <hash>4dbaefa8bf3c504e19d5ce109e80a8d20fab44435bfb47b6459d25d4453f893c</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMA5D27CD1G_DFP\component\pio.h</file>
@@ -3455,11 +3471,11 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\dev\spi\wdrv_winc_spi.c</file>
-         <hash>3c43ac7f324e25be611223a6681cc6def0f150c401338e4baa95b1290a698151</hash>
+         <hash>1c793506fb215f62b363eccb885ca40b271710b3c381c47e1a7d1530cf10a527</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\include\dev\wdrv_winc_spi.h</file>
-         <hash>927b540a935f5d21be5addf88dd94da3426df155218160aff259486ce7b3322f</hash>
+         <hash>e87e6ba9cb409542bed1b3de76bb5248bf145ce31201768d6c811a6d1f0cd4f0</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMA5D27CD1G_DFP\instance\isc.h</file>
@@ -3499,7 +3515,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\include\drv\bsp\nm_bsp.h</file>
-         <hash>97acfcc628c3218c99781e2c75248283d88a57f4179dff448a6bf4d38dcd3d3d</hash>
+         <hash>8ab48f1e914b25496ed5bbda2d6202fa41eb0a5dff4f98b4d899ae835939072a</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\include\wdrv_winc_powersave.h</file>
@@ -3531,7 +3547,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\include\drv\common\nm_common.h</file>
-         <hash>7931068cb91d0e577302f9646b4d7d57f4927c009311e583dcb45dc735a7f7c9</hash>
+         <hash>c12406f4680510fff82a70bd9056cdc8e0c6fcf737daf121e7952f0540b2e4e1</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\system\debug\src\sys_debug_local.h</file>
@@ -3539,7 +3555,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\wdrv_winc_enterprise.c</file>
-         <hash>7f81e69da00b56e16b0df1aedca0a26d36068330eae36c5b9098ee7a22224ff6</hash>
+         <hash>7c7c6bd221462c97c9d626778d6960609a7dce82985e3dbfafa7da280de091a5</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMA5D27CD1G_DFP\instance\tc0.h</file>
@@ -3559,7 +3575,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\include\wdrv_winc_socket.h</file>
-         <hash>feec98b496c4960d268e0d593ff4d8f4cda2dabd2db78b94fc6d491966a1dadc</hash>
+         <hash>7d7d0d6f147a7b026a6418d5c6549af910439155a684c0ae53ea40b6e5a2183b</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\peripheral\clk\plib_clk.c</file>
@@ -3567,7 +3583,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\include\drv\socket\m2m_socket_host_if.h</file>
-         <hash>b78267f9dcb8c45a021db0f5591844f5aab842a9a9cb21282a44de4deb3c0629</hash>
+         <hash>98586afc8217baefe24e3758eb1aea76509f149801b1ab706f6ae51506ca88e8</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\peripheral\clk\plib_clk.h</file>
@@ -3595,7 +3611,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\include\drv\driver\m2m_ssl.h</file>
-         <hash>1015a312795d5bd15202ec93a8661646734387d3b38edb7118942bdc19653960</hash>
+         <hash>b13ee80b6122127e305f3b089c2e4667f56736777da1432debebb9e68e1b3da2</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\wdrv_winc_sta.c</file>
@@ -3603,7 +3619,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\include\drv\spi_flash\spi_flash_map.h</file>
-         <hash>532ec2d62ecd0c1eb65b9cec86d7a1dde61f5ea1851f103ee7dd6c4e946e9266</hash>
+         <hash>f9c160397e5be642fc62b8280eff0610bf2cee4de50de9bbe52acbb8ef163a15</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\pin_configurations.csv</file>
@@ -3639,15 +3655,15 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\include\drv\spi_flash\spi_flash.h</file>
-         <hash>f2c202c5cb3d572107472c92d5ed0fd212e3fef7fbc88fb308e49ca806b54d96</hash>
+         <hash>e06abf7222ed403f46a6a29a3ae5b67656e531b3d0f6c157ea372b477dbf5ffd</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\drv\spi_flash\spi_flash.c</file>
-         <hash>da691737475b98b20effe19032aeb9f9cf42d2f89b8c20652f4a2e74d8a16d45</hash>
+         <hash>bd9fd766c5d04f5df3ec71b41e0277b83deaa35bf760ff9ba42475aa10218d5c</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\wdrv_winc_socket.c</file>
-         <hash>1de6ac7fadf316bc0a600ae97567a64ec3514096b89a3c700e8b4a931b9d649a</hash>
+         <hash>c276a2066d76f837b7dcf80de974e58b6d66facd6f5403a11f0a5d15709a544c</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\osal\osal_definitions.h</file>
@@ -3667,7 +3683,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\include\drv\socket\netinet_in.h</file>
-         <hash>fdda8208c27377394bc8371155f3d92b25482f988ec63b3c968bb4c4bf0c8224</hash>
+         <hash>d08301d00a9fd274f41592f0a4dd0c13e20d1be8dc08d1acc05f0585bd0d6395</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\peripheral\flexcom\spi\master\plib_flexcom_spi_master_common.h</file>
@@ -3675,7 +3691,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\include\drv\driver\m2m_ota.h</file>
-         <hash>a0297b5093e7d902711bf6794c1b68ab25decbb3501e633191640f472d3c87ad</hash>
+         <hash>28a8c20b018ad72f5dd131c14555fc68863431ad8d2e8fe6650fe88ae566d94f</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMA5D27CD1G_DFP\instance\flexcom0.h</file>
@@ -3683,7 +3699,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\include\drv\driver\nmdrv.h</file>
-         <hash>2f44bfd9f1541d0e1e3479ca7689a4888d2a9d8be043ad3842eeff315c5cae36</hash>
+         <hash>9eced0c31e73cda09b450121563c8a24f5703a82b33d1a86860ff16df1a684d4</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\peripheral\matrix\plib_matrix.c</file>
@@ -3715,7 +3731,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\include\drv\driver\nmspi.h</file>
-         <hash>4054f51182abaeab6625fe513825e97e17f799e95faf891a527e3aeb49c821c4</hash>
+         <hash>c6312ff437d521583d3a72240b11793f8aa9683bc7e7bc010da45eb2d2d6b136</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\peripheral\matrix\plib_matrix.h</file>
@@ -3743,11 +3759,11 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\drv\common\nm_common.c</file>
-         <hash>47d15f6322fc1e61d30c171696a1f7e7f56571f62eb3b0715d67c87e4465ddc1</hash>
+         <hash>27bd05fddbf359d0118bd41b5b1b883347142350fc7283836ff02db1700a1a87</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\drv\driver\m2m_wifi.c</file>
-         <hash>d28b36049bb62aa39ef2fdc6e367e6c8e3bed10263bd393e9015ca2b7b7e8bc8</hash>
+         <hash>5ccfe485b8f9ba2823086d06f68563d1a48fa5a2263b524f2b0bd9f055c323f7</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMA5D27CD1G_DFP\instance\sfr.h</file>
@@ -3767,7 +3783,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\include\wdrv_winc_client_api.h</file>
-         <hash>0874f2c37e0053453e2192ff5d33d4f12d8fc9f8159d07fb01c44f823c77d814</hash>
+         <hash>a24e8af21a445d837cc0e05852017d8ca16e5f4c442e54b0cabdc89a5586cac9</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core_A\Include\core_ca.h</file>
@@ -3831,7 +3847,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\include\drv\driver\ecc_types.h</file>
-         <hash>826f6d7482f32df7be410d3f2346e813129c7bec98ba51e9667594541f221386</hash>
+         <hash>faf8bac9697f23db0807599f52066c31f0b0aed8d4226562a33e16ba65cf1a1a</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMA5D27CD1G_DFP\component\isc.h</file>
@@ -3911,7 +3927,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\drv\socket\socket.c</file>
-         <hash>ba644ec22625b06afb06181433361c97ed18224ab942d638d88ac14ef152dace</hash>
+         <hash>c65f68ee307df147885d7188a384e343ac4b1cae7c6075b74deca494ec039136</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMA5D27CD1G_DFP\component\smc.h</file>
@@ -3923,7 +3939,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\include\drv\driver\nmasic.h</file>
-         <hash>0bcfe9a8850f8aef900b19144321597301fdd912d2b8993e2d90715ab9f1f230</hash>
+         <hash>79f113d88d81aa084c329cbd08e8f6c4ccdf7ff825e730eef16681fc9ac3d153</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\system\cache\sys_cache.h</file>
@@ -3931,11 +3947,11 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\include\wdrv_winc_api.h</file>
-         <hash>cbe896c860ac2cd41fadbd08b92d02ff7ac4cc3a9a9b3e66402b93edf70d65e7</hash>
+         <hash>cab8dd9724c46a8023aab31d4af7121164b52c624529822041d4bd4f25b64738</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\drv\socket\inet_ntop.c</file>
-         <hash>128a852b0d1882788bf29c6d14283326ef235b7962a31fed61874c58dfcee5ba</hash>
+         <hash>a2c3b843490875f8ccc04fbd878ea0ab9dc325246bbbfeb46c1a833f79140cef</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMA5D27CD1G_DFP\component\tdes.h</file>
@@ -3951,7 +3967,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\drv\driver\nmasic.c</file>
-         <hash>b9422e056379d3601c0b156b08211787a71ac27c5cd37522a4d0759d5c5dd8b8</hash>
+         <hash>bf2a2bdac11e046c72ba159e79635e7f14754a453151fd5a03cd8ca87e4eb70a</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMA5D27CD1G_DFP\instance\pwm.h</file>
@@ -3975,7 +3991,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\include\wdrv_winc_assoc.h</file>
-         <hash>af9fcb6f6d61516c4623a9aef52b12d4a24204bc7c40faf10e91be70262e77ba</hash>
+         <hash>0dfa352e4fdce8325360352f70320f5e68cfd4318cec4009cdbda31dee2bbb80</hash>
       </entry>
       <entry>
          <file>..\src\app.h</file>
@@ -3983,7 +3999,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\wdrv_winc_systime.c</file>
-         <hash>5bd67dc52a7f78e1e6869f86446fc544a482ad4a5f0ed64f87b1ba0331dc94ac</hash>
+         <hash>740bfa85d241095598526c40510657ad8191665ca2c14ac7820ef1d879a4f575</hash>
       </entry>
       <entry>
          <file>..\src\app.c</file>
@@ -3999,7 +4015,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\drv\driver\m2m_ota.c</file>
-         <hash>0834de93f54a888f401b6633d32d0b6dfa96fee7ceb20713311998521945d2bd</hash>
+         <hash>57f7fe01514a4704d9dcdd9308699a1a0b4daf133d3acad3d8f8444970e7728c</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\wdrv_winc_powersave.c</file>
@@ -4051,7 +4067,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\drv\driver\m2m_flash.c</file>
-         <hash>205f97876f58d27d2c65d013b03d587c295e8331904f40e36910df9c6385a4ab</hash>
+         <hash>90df791bf1ac95c791f2bf6b57e3dfeeabbbb6412753afa652fadffe359f82a8</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\wdrv_winc_wps.c</file>
@@ -4115,7 +4131,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\include\drv\socket\socket.h</file>
-         <hash>270c4954cdcd19091503d8a333df7ca6d055caddfd9811bf3addec706e8d397a</hash>
+         <hash>b149e16ae739f10004995ce093f05b7970a1c164f3a1590c3ba05fe2db3395fd</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMA5D27CD1G_DFP\instance\mcan1.h</file>
@@ -4123,7 +4139,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\drv\socket\inet_addr.c</file>
-         <hash>d2b07e40135f565a4c444a7f8a5e792225d58534553d21ea67f97dddb7515488</hash>
+         <hash>6b12c58ddf1e843502d86ea7f3d799ad1c299713e558b3b675d99d9c3ce21382</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMA5D27CD1G_DFP\instance\aic.h</file>
@@ -4143,7 +4159,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\drv\driver\m2m_ssl.c</file>
-         <hash>059cefb7bac13a3a7be2db42485e20408279b4fc8986006edc42e2c891d741eb</hash>
+         <hash>8dca4f22a4cde936ac1360c6080e0809ea0f61c0909f61ab4a1e81560098f898</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\ddr.ld</file>
@@ -4155,7 +4171,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\drv\driver\nmspi.c</file>
-         <hash>d2e1f18caa25d608bbe1dfc3b3c4d250cbff763939aa0ffe004a40de858a4cde</hash>
+         <hash>c34909a2f0134a475f26a6d103937b206f59745d2e31357fc7aac03e306c5ad0</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\osal\osal.h</file>
@@ -4175,7 +4191,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\wdrv_winc_assoc.c</file>
-         <hash>6f6295c55dc4f73e49498e12c0c45d70bafefd44c17abb2463f85408bb2737fb</hash>
+         <hash>7b5b0ef753c73eed7bdd87deb81d0c14a17fa3a0377b4e6be0d65df0cf05a6b6</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\wdrv_winc_httpprovctx.c</file>
@@ -4239,7 +4255,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\drv\driver\m2m_hif.c</file>
-         <hash>52757e232efa2a8d614a7a1e3288d332a1eef10ca45de6f04cf3627652c3bd57</hash>
+         <hash>0ad27a8c082b49ab4c7f669e7953e95ccc3195cd6868923fa11aa469782e1036</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMA5D27CD1G_DFP\instance\sha.h</file>
@@ -4255,11 +4271,11 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\include\drv\driver\m2m_periph.h</file>
-         <hash>07b300dded3966f544e6959b7514144d13143ebc5583d8c3882d2b0df7cb69fe</hash>
+         <hash>991727e0b14e025e357fa27ae2125e59e25e4f46944cdb490e57abd0044a942d</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\include\drv\driver\m2m_flash.h</file>
-         <hash>3722a65262a44f4eda91a2200b47d78a2bc048fa2b460bd472942524bfeb135c</hash>
+         <hash>2e2b964d10c43b80bb895520ffc2fe1f52e2bee585c50cc073952641cf2ab31f</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\definitions.h</file>
@@ -4291,7 +4307,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\drv\driver\nmdrv.c</file>
-         <hash>e196276635e53418fb6d9221ca3d763a8da4e82877af6e90bc0fd134a28a15bb</hash>
+         <hash>1b0b000f62f008077225812e5a467bc78978e5c8f12aed633d5266aa8fafe882</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMA5D27CD1G_DFP\instance\uart4.h</file>
@@ -4311,7 +4327,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\include\drv\driver\nmbus.h</file>
-         <hash>dbe87bd74c7fe37a39c84f10eee69f6a0bd9f09cb403d7be41d863594de3be6b</hash>
+         <hash>e8dd06c0de215ffdb9903c3dede97e1fbd706a7ca14424983e3380f46a1ffa1c</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMA5D27CD1G_DFP\component\uhphs.h</file>
@@ -4331,7 +4347,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\include\drv\common\nm_debug.h</file>
-         <hash>ef782f9a428e80cf7d301b2e2f0b55fba8cc305cd4d0a01b41b846d476d07ff7</hash>
+         <hash>9ef40ae17adcd32b8331f98a46bfbbb90f331304c696358278a175b2648d3bf5</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMA5D27CD1G_DFP\component\xdmac.h</file>
@@ -4351,7 +4367,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\include\drv\driver\m2m_wifi.h</file>
-         <hash>ded5d8f9a827962eb836fd65db5b79a36d35841859702313aad8f0a0ea3bdaf9</hash>
+         <hash>bf40482f7965c1f25512c899c025ef409c736a79fc8bc173bd59da34569d55ad</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMA5D27CD1G_DFP\component\spi.h</file>
@@ -4379,7 +4395,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\driver\winc\include\drv\driver\m2m_types.h</file>
-         <hash>43f300a6c5cd0e2a816dde1207dcb806b6820b580f6243565ac0c66747f1f7bb</hash>
+         <hash>fe2ded5bd25e45bad90177885e836f6b6e11402df50851d665de19a83b76133a</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_a5d27_som1_winc3400\cstartup.S</file>
